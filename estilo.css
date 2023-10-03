@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://img.freepik.com/fotos-premium/abstrato-com-luzes-desfocadas-bokeh-e-estrelas-cor-rosa_900706-1085.jpg?size=626&ext=jpg&ga=GA1.2.1073840699.1688599870&semt=sph);
+    font-family:'Times New Roman', Times, serif;
+    background-position: center;
+    background-size: cover;
+}
+
+.calculator {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 3em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.921);
+    /*background-color: rgba(255, 182, 250, 0.773);*/
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    max-width: 400px;
+    height: 24em;
+
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #f7c1c1fe;
+    cursor: pointer;
+    width: 3.6em;
+    margin-top: 0.8em;
+    margin-left: 2em;
+    margin-block: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.921);
+}
+
+input {
+    grid-column: span 1;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #c62424;
+    border-radius: 5px;
+    width: 6em;
+   /* outline: none;*/
+    
+}
+
+#result {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 25px;
+    background-color: #fefefee0;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 0px 0px 10px rgba(201, 197, 197, 0.921);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.3em;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+
+/*body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f6fc;
+    color: #000000;
+   /* margin-top: 0;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /*height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    margin:auto;
+    padding: 2em;
+    margin-top: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+
+h1 {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+  
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+}
+
+.logo{
+    padding-left: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+  }
+
+.content{
+    margin: 2rem;
+    font-size: 1.5rem;
+    background-color: #b11e1e;
+    color: #eee8ff;
+    padding: 2.5rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.maxWidth{
+    max-width: 90em;/*1440px
+}
+
+ul{
+    margin:0;
+    margin-right: 2em;
+    list-style-type: none;
+}
+
+
+#resultado{
+    padding-top: 2rem;
+}
+
+.txt{
+    font-size: 1.5rem;
+    width: 5rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #464646;
+    color: #ffffff;
+    padding: 0.3em;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+}*/

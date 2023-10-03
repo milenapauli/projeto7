@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Caluladora</title>
+    <link rel= "stylesheet" href="estilo.css"
+    <link rel= "stylesheet" href="normalize.css"
+</head>
+
+
+<title>Calculadora</title>
+
+<body>
+    <main>
+<div class="calculator">
+         
+<input type="number" id="num1" placeholder="Número 1">
+<input type="number" id="num2" placeholder="Número 2">
+        
+       
+<button onclick="calculate('+')">+</button>
+        
+<button onclick="calculate('-')">-</button>
+        
+<button onclick="calculate('*')">*</button>
+        
+<button onclick="calculate('/')">/</button>
+        
+<p id="result">Resultado: </p>
+    </main>
+<footer> Por Milena Pauli - Elas na Tech 2023 ♥ </footer>
+</body>
+<script src="script.js"></script>
+
+
+
+
+   
+    <!--<header>
+        <div class="logo fonte">Logo</div>
+        <nav class="fonte">
+            <ul>
+                <li>Menu 01</li>
+                <li>Menu 02</li>
+                <li>Menu 03</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="fonte_h1">DOM - Document Object Model</h1>
+        <div id="div01" class="content">
+            <input type="number" name="txt01" id="txt01" class="txt">
+            <input type="number" name="txt02" id="txt02" class="txt">
+
+            <input type="button" value="+" id="btnSomar" class="txt">
+            <input type="button" value="-" id="btnSub" class="txt">
+            <div id="resultado">
+                Resultado
+            </div>
+        </div>
+    </main>->
+
+
+    <footer>Elas na Tech 2023 ♥</footer>
+
+
+    <script>
+        var btnSomar = document.getElementById('btnSomar');
+        btnSomar.addEventListener('click', somar);
+
+        
+
+        function somar() {
+            var c1 = document.getElementById('txt01');
+            var c2 = document.getElementById('txt02');
+            var result = document.getElementById('resultado');
+
+            
+            var num1 = parseFloat(c1.value);
+            var num2 = parseFloat(c2.value);
+
+            var resultado = num1 + num2;
+            result.innerText = "A soma é: " + resultado;
+
+        }
+
+        
+    </script>->
+
+</body>
+
+</html>
